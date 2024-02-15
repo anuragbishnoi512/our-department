@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500&family=Montserrat:wght@400;700&display=swap");
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+.section {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 1140px;
+  height: 100vh;
+}
+
+.container {
+  max-width: 1140px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.align-center {
+  align-items: center;
+}
+.justi-center {
+  justify-content: center;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+.col-6 {
+  width: 50%;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.col-12 {
+  width: 100%;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.top {
+  content: "";
+  width: 94px;
+  border-top: 3px #fc724d solid;
+  border-width: 10px;
+  margin-top: 150px;
+}
+
+h1 {
+  color: #252b42;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  margin-top: 30px;
+}
+
+.p1 {
+  margin-top: 30px;
+  width: 351px;
+  color: #737373;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  font-weight: 500;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h5 {
+  color: #fc724d;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+.button {
+  margin-top: 25px;
+  display: flex;
+}
+
+.card1 {
+  margin-top: 10px;
+  background: #fff;
+  box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+  display: flex;
+  padding: 35px 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.top1 {
+  content: "";
+  width: 60px;
+  border-top: 3px #fc724d solid;
+  border-width: 3px;
+}
+
+.p2 {
+  width: 132px;
+  color: #737373;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+}
+
+.p3 {
+  width: 132px;
+  color: #737373;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+}
+
+.p4 {
+  width: 132px;
+  color: #737373;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+}
+
+.icon {
+  margin-left: 5px;
+  margin-top: 4px;
+}
+
+.img1 {
+  display: flex;
+  padding: 22px 19px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 10px;
+  background: #b6d7ff;
+}
+
+.card2 {
+  margin-top: 24px;
+
+  display: flex;
+  padding: 35px 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  background: #fff;
+  box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+}
+
+.top2 {
+  content: "";
+  width: 60px;
+  border-top: 3px #fc724d solid;
+  border-width: 3px;
+}
+
+.img2 {
+  display: flex;
+  padding: 22px 19px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 10px;
+  background: #b6d7ff;
+}
+
+.card3 {
+  display: flex;
+  padding: 35px 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  background: #fff;
+  box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+}
+
+.top3 {
+  content: "";
+  width: 60px;
+  border-top: 3px #fc724d solid;
+  border-width: 3px;
+}
+
+.img3 {
+  display: flex;
+  padding: 22px 19px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 10px;
+  background: #b6d7ff;
+}
+
+.w1 {
+  color: #252b42;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+  width: 157px;
+}
+
+.w2 {
+  color: #252b42;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+  width: 157px;
+}
+
+.w3 {
+  color: #252b42;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+  width: 157px;
+}
+@media (max-width:992px) {
+  .col-12-lg{
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .mt-38-lg{
+    margin-top: 38px;
+  }
+}
